@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="JYee-PC" name="OnlineStore.TestRunner" skipped="0" tests="60" time="122.526" timestamp="2016-10-20T22:51:52">
+  <properties>
+    <property name="netbeans.autoupdate.country" value="CN" />
+    <property name="ant.file.DeliverableThree" value="C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\build.xml" />
+    <property name="javac.test.classpath" value="libs\cglib-nodep-3.2.4.jar:libs\client-combined-3.0.0-beta4-nodeps.jar:libs\commons-codec-1.10.jar:libs\commons-exec-1.3.jar:libs\commons-logging-1.2.jar:libs\gson-2.3.1.jar:libs\guava-19.0.jar:libs\hamcrest-core-1.3.jar:libs\hamcrest-library-1.3.jar:libs\httpclient-4.5.2.jar:libs\httpcore-4.4.4.jar:libs\httpmime-4.5.2.jar:libs\jna-4.1.0.jar:libs\jna-platform-4.1.0.jar:libs\junit-4.12.jar:libs\netty-3.5.7.Final.jar:libs\phantomjsdriver-1.3.0.jar:libs\cucumber-core-1.2.5.jar:libs\cucumber-java-1.2.5.jar:libs\cucumber-junit-1.2.5.jar:libs\cucumber-jvm-deps-1.0.5.jar:libs\gherkin-2.12.2.jar:build/classes:D:\NetBeans 8.1\platform\modules\ext\junit-4.12.jar:D:\NetBeans 8.1\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="file.reference.commons-exec-1.3.jar" value="libs\commons-exec-1.3.jar" />
+    <property name="javac.includes" value="OnlineStore/TestRunner.java" />
+    <property name="ant.core.lib" value="D:\NetBeans 8.1\extide\ant\lib\ant.jar" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="user.dir" value="C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master" />
+    <property name="java.vm.version" value="25.101-b13" />
+    <property name="libs.MySQLDriver.classpath" value="D:\NetBeans 8.1\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
+    <property name="libs.eclipselinkmodelgen.src" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="file.reference.gson-2.3.1.jar" value="libs\gson-2.3.1.jar" />
+    <property name="javac.profile.cmd.line.arg" value="" />
+    <property name="jdk.home" value="C:\Program Files\Java\jdk1.8.0_101" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="libs.jpa2-persistence.classpath" value="D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="have.tests" value="true" />
+    <property name="file.reference.jna-platform-4.1.0.jar" value="libs\jna-platform-4.1.0.jar" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.hamcrest.classpath" value="D:\NetBeans 8.1\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="os.name" value="Windows 7" />
+    <property name="test.class" value="OnlineStore.TestRunner" />
+    <property name="libs.beans-binding.classpath" value="D:\NetBeans 8.1\java\modules\ext\beansbinding-1.2.1.jar" />
+    <property name="ap.proc.none.internal" value="" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="libs.testng.src" value="" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="os.arch" value="amd64" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="user.name" value="JYee" />
+    <property name="copylibs.rebase" value="true" />
+    <property name="libs.swing-layout.maven-pom" value="" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner OnlineStore.TestRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\build\test\results\TEST-OnlineStore.TestRunner.xml crashfile=C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\build\junitvmwatcher2323438687113389623.properties propsfile=C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\build\junit5819103912443614112.properties" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="ap.supported.internal" value="true" />
+    <property name="java.failonerror" value="true" />
+    <property name="libs.jaxws21.javadoc" value="D:\NetBeans 8.1\java\docs\jaxws-api-doc.zip" />
+    <property name="file.reference.junit-4.12.jar" value="libs\junit-4.12.jar" />
+    <property name="includes" value="**" />
+    <property name="user.country" value="CN" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="javac.classpath" value="libs\cglib-nodep-3.2.4.jar:libs\client-combined-3.0.0-beta4-nodeps.jar:libs\commons-codec-1.10.jar:libs\commons-exec-1.3.jar:libs\commons-logging-1.2.jar:libs\gson-2.3.1.jar:libs\guava-19.0.jar:libs\hamcrest-core-1.3.jar:libs\hamcrest-library-1.3.jar:libs\httpclient-4.5.2.jar:libs\httpcore-4.4.4.jar:libs\httpmime-4.5.2.jar:libs\jna-4.1.0.jar:libs\jna-platform-4.1.0.jar:libs\junit-4.12.jar:libs\netty-3.5.7.Final.jar:libs\phantomjsdriver-1.3.0.jar:libs\cucumber-core-1.2.5.jar:libs\cucumber-java-1.2.5.jar:libs\cucumber-junit-1.2.5.jar:libs\cucumber-jvm-deps-1.0.5.jar:libs\gherkin-2.12.2.jar" />
+    <property name="libs.spring-framework400.classpath" value="D:\NetBeans 8.1\ide\modules\org-apache-commons-logging.jar;D:\NetBeans 8.1\java\modules\ext\cglib-2.2.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-aop-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-aspects-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-beans-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-build-src-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-context-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-context-support-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-core-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-expression-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-framework-bom-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-instrument-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-instrument-tomcat-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-jdbc-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-jms-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-messaging-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-orm-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-oxm-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-test-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-tx-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-web-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-webmvc-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-webmvc-portlet-4.0.1.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-4\spring-websocket-4.0.1.RELEASE.jar" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="netbeans.home" value="D:\NetBeans 8.1\platform" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed" />
+    <property name="test.includes" value="OnlineStore/TestRunner.java" />
+    <property name="netbeans.dynamic.classpath" value="D:\NetBeans 8.1\platform\core\asm-all-5.0.1.jar;D:\NetBeans 8.1\platform\core\core-base.jar;D:\NetBeans 8.1\platform\core\core.jar;D:\NetBeans 8.1\platform\core\org-netbeans-libs-asm.jar;D:\NetBeans 8.1\platform\core\org-openide-filesystems-compat8.jar;D:\NetBeans 8.1\platform\core\org-openide-filesystems.jar;D:\NetBeans 8.1\platform\core\locale\core-base_ja.jar;D:\NetBeans 8.1\platform\core\locale\core-base_pt_BR.jar;D:\NetBeans 8.1\platform\core\locale\core-base_ru.jar;D:\NetBeans 8.1\platform\core\locale\core-base_zh_CN.jar;D:\NetBeans 8.1\platform\core\locale\core_ja.jar;D:\NetBeans 8.1\platform\core\locale\core_pt_BR.jar;D:\NetBeans 8.1\platform\core\locale\core_ru.jar;D:\NetBeans 8.1\platform\core\locale\core_zh_CN.jar;D:\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_ja.jar;D:\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_pt_BR.jar;D:\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_ru.jar;D:\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_zh_CN.jar;D:\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_ja.jar;D:\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_pt_BR.jar;D:\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_ru.jar;D:\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_zh_CN.jar;D:\NetBeans 8.1\platform\core\locale\org-openide-filesystems_ja.jar;D:\NetBeans 8.1\platform\core\locale\org-openide-filesystems_pt_BR.jar;D:\NetBeans 8.1\platform\core\locale\org-openide-filesystems_ru.jar;D:\NetBeans 8.1\platform\core\locale\org-openide-filesystems_zh_CN.jar;D:\NetBeans 8.1\nb\core\org-netbeans-upgrader.jar;D:\NetBeans 8.1\nb\core\locale\core_nb.jar;D:\NetBeans 8.1\nb\core\locale\core_nb_ja.jar;D:\NetBeans 8.1\nb\core\locale\core_nb_pt_BR.jar;D:\NetBeans 8.1\nb\core\locale\core_nb_ru.jar;D:\NetBeans 8.1\nb\core\locale\core_nb_zh_CN.jar;D:\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_ja.jar;D:\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;D:\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_ru.jar;D:\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="libs.hibernate4-support.src" value="" />
+    <property name="netbeans.productversion" value="NetBeans IDE 8.1 (Build 201510222201)" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="application.title" value="DeliverableThree" />
+    <property name="do.archive" value="true" />
+    <property name="netbeans.autoupdate.language" value="zh" />
+    <property name="file.reference.cucumber-core-1.2.5.jar" value="libs\cucumber-core-1.2.5.jar" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="file.reference.commons-codec-1.10.jar" value="libs\commons-codec-1.10.jar" />
+    <property name="jar.index.metainf" value="false" />
+    <property name="javac.debug" value="true" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="file.separator" value="\" />
+    <property name="javac.includesfile.binary" value="C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\null251547685" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="mkdist.disabled" value="true" />
+    <property name="javac.test.processorpath" value="libs\cglib-nodep-3.2.4.jar:libs\client-combined-3.0.0-beta4-nodeps.jar:libs\commons-codec-1.10.jar:libs\commons-exec-1.3.jar:libs\commons-logging-1.2.jar:libs\gson-2.3.1.jar:libs\guava-19.0.jar:libs\hamcrest-core-1.3.jar:libs\hamcrest-library-1.3.jar:libs\httpclient-4.5.2.jar:libs\httpcore-4.4.4.jar:libs\httpmime-4.5.2.jar:libs\jna-4.1.0.jar:libs\jna-platform-4.1.0.jar:libs\junit-4.12.jar:libs\netty-3.5.7.Final.jar:libs\phantomjsdriver-1.3.0.jar:libs\cucumber-core-1.2.5.jar:libs\cucumber-java-1.2.5.jar:libs\cucumber-junit-1.2.5.jar:libs\cucumber-jvm-deps-1.0.5.jar:libs\gherkin-2.12.2.jar:build/classes:D:\NetBeans 8.1\platform\modules\ext\junit-4.12.jar:D:\NetBeans 8.1\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="netbeans.buildnumber" value="201510222201" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="user.variant" value="" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="D:\NetBeans 8.1\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen_2.5.2.v20140319-9ad6abd.jar" />
+    <property name="file.reference.gherkin-2.12.2.jar" value="libs\gherkin-2.12.2.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
+    <property name="libs.jaxb.javadoc" value="D:\NetBeans 8.1\ide\docs\jaxb-api-doc.zip" />
+    <property name="javac.includes.binary" value="C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\build\test\classes\OnlineStore\TestRunner.class" />
+    <property name="ant.home" value="D:\NetBeans 8.1\extide\ant" />
+    <property name="libs.junit_4.src" value="D:\NetBeans 8.1\platform\docs\junit-4.12-sources.jar" />
+    <property name="libs.testng.classpath" value="D:\NetBeans 8.1\platform\modules\ext\testng-6.8.1-dist.jar" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files\MongoDB\Server\3.2\bin;C:\Program Files (x86)\Skype\Phone\;D:\MATLAB\R2016a\bin;D:\Program Files (x86)\Heroku\bin;C:\Program Files (x86)\git\cmd;C:\Program Files (x86)\Git\cmd;C:\Program Files\nodejs\;c:\users\jyee\appdata\local\enthought\canopy\user\scripts;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\SSH Secure Shell;C:\Users\JYee\AppData\Roaming\npm;." />
+    <property name="javadoc.author" value="false" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="file.reference.hamcrest-library-1.3.jar" value="libs\hamcrest-library-1.3.jar" />
+    <property name="libs.spring-framework400.src" value="" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="basedir" value="C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master" />
+    <property name="libs.jpa20-persistence.maven-pom" value="" />
+    <property name="file.reference.phantomjsdriver-1.3.0.jar" value="libs\phantomjsdriver-1.3.0.jar" />
+    <property name="jar.compress" value="false" />
+    <property name="file.reference.jna-4.1.0.jar" value="libs\jna-4.1.0.jar" />
+    <property name="path.separator" value=";" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.jaxws21.classpath" value="D:\NetBeans 8.1\ide\modules\ext\jaxb\jaxb-impl.jar;D:\NetBeans 8.1\ide\modules\ext\jaxb\jaxb-xjc.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\FastInfoset.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\gmbal-api-only.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\ha-api.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\javax.mail_1.4.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\jaxws-rt.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\jaxws-tools.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\management-api.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\mimepull.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\policy.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\saaj-impl.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\stax-ex.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\stax2-api.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\streambuffer.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\woodstox-core-asl.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\api\jaxws-api.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\api\jsr181-api.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\api\javax.annotation.jar;D:\NetBeans 8.1\java\modules\ext\jaxws22\api\saaj-api.jar;D:\NetBeans 8.1\ide\modules\ext\jaxb\activation.jar;D:\NetBeans 8.1\ide\modules\ext\jaxb\api\jaxb-api.jar;D:\NetBeans 8.1\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="compile.on.save" value="false" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
+    <property name="user.language" value="zh" />
+    <property name="testng.mode" value="testng" />
+    <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="application.vendor" value="JYee" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
+    <property name="libs.spring-framework300.maven-pom" value="" />
+    <property name="run.test.classpath" value="libs\cglib-nodep-3.2.4.jar:libs\client-combined-3.0.0-beta4-nodeps.jar:libs\commons-codec-1.10.jar:libs\commons-exec-1.3.jar:libs\commons-logging-1.2.jar:libs\gson-2.3.1.jar:libs\guava-19.0.jar:libs\hamcrest-core-1.3.jar:libs\hamcrest-library-1.3.jar:libs\httpclient-4.5.2.jar:libs\httpcore-4.4.4.jar:libs\httpmime-4.5.2.jar:libs\jna-4.1.0.jar:libs\jna-platform-4.1.0.jar:libs\junit-4.12.jar:libs\netty-3.5.7.Final.jar:libs\phantomjsdriver-1.3.0.jar:libs\cucumber-core-1.2.5.jar:libs\cucumber-java-1.2.5.jar:libs\cucumber-junit-1.2.5.jar:libs\cucumber-jvm-deps-1.0.5.jar:libs\gherkin-2.12.2.jar:build/classes:D:\NetBeans 8.1\platform\modules\ext\junit-4.12.jar:D:\NetBeans 8.1\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="ant.project.invoked-targets" value="test-single" />
+    <property name="test.binaryexcludes" value="" />
+    <property name="libs.swing-layout.javadoc" value="D:\NetBeans 8.1\platform\docs\swing-layout-1.0.4-doc.zip" />
+    <property name="sun.java2d.dpiaware" value="true" />
+    <property name="libs.hibernate4-persistence.maven-pom" value="" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|JYee-PC" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.class.version" value="52.0" />
+    <property name="file.reference.httpmime-4.5.2.jar" value="libs\httpmime-4.5.2.jar" />
+    <property name="libs.hibernate4-persistencemodelgen.maven-pom" value="" />
+    <property name="libs.eclipselink.javadoc" value="D:\NetBeans 8.1\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="user.properties.file" value="C:\Users\JYee\AppData\Roaming\NetBeans\8.1\build.properties" />
+    <property name="runtime.encoding" value="UTF-8" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.JAXB-ENDORSED.javadoc" value="" />
+    <property name="file.reference.httpcore-4.4.4.jar" value="libs\httpcore-4.4.4.jar" />
+    <property name="libs.JWSAntTasks.classpath" value="D:\NetBeans 8.1\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.spring-framework300.src" value="" />
+    <property name="file.reference.cglib-nodep-3.2.4.jar" value="libs\cglib-nodep-3.2.4.jar" />
+    <property name="empty.dir" value="C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\build\empty" />
+    <property name="version-output" value="java version &quot;1.8" />
+    <property name="test.binarytestincludes" value="" />
+    <property name="libs.hibernate4-persistencemodelgen.src" value="" />
+    <property name="javadoc.preview" value="true" />
+    <property name="libs.jpa20-persistence.javadoc" value="D:\NetBeans 8.1\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre" />
+    <property name="debug.test.classpath" value="libs\cglib-nodep-3.2.4.jar:libs\client-combined-3.0.0-beta4-nodeps.jar:libs\commons-codec-1.10.jar:libs\commons-exec-1.3.jar:libs\commons-logging-1.2.jar:libs\gson-2.3.1.jar:libs\guava-19.0.jar:libs\hamcrest-core-1.3.jar:libs\hamcrest-library-1.3.jar:libs\httpclient-4.5.2.jar:libs\httpcore-4.4.4.jar:libs\httpmime-4.5.2.jar:libs\jna-4.1.0.jar:libs\jna-platform-4.1.0.jar:libs\junit-4.12.jar:libs\netty-3.5.7.Final.jar:libs\phantomjsdriver-1.3.0.jar:libs\cucumber-core-1.2.5.jar:libs\cucumber-java-1.2.5.jar:libs\cucumber-junit-1.2.5.jar:libs\cucumber-jvm-deps-1.0.5.jar:libs\gherkin-2.12.2.jar:build/classes:D:\NetBeans 8.1\platform\modules\ext\junit-4.12.jar:D:\NetBeans 8.1\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="file.reference.guava-19.0.jar" value="libs\guava-19.0.jar" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.MySQLDriver.maven-pom" value="" />
+    <property name="libs.hibernate4-persistence.javadoc" value="D:\NetBeans 8.1\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|JYee-PC" />
+    <property name="libs.junit_4.javadoc" value="D:\NetBeans 8.1\platform\docs\junit-4.12-javadoc.jar" />
+    <property name="run.classpath" value="libs\cglib-nodep-3.2.4.jar:libs\client-combined-3.0.0-beta4-nodeps.jar:libs\commons-codec-1.10.jar:libs\commons-exec-1.3.jar:libs\commons-logging-1.2.jar:libs\gson-2.3.1.jar:libs\guava-19.0.jar:libs\hamcrest-core-1.3.jar:libs\hamcrest-library-1.3.jar:libs\httpclient-4.5.2.jar:libs\httpcore-4.4.4.jar:libs\httpmime-4.5.2.jar:libs\jna-4.1.0.jar:libs\jna-platform-4.1.0.jar:libs\junit-4.12.jar:libs\netty-3.5.7.Final.jar:libs\phantomjsdriver-1.3.0.jar:libs\cucumber-core-1.2.5.jar:libs\cucumber-java-1.2.5.jar:libs\cucumber-junit-1.2.5.jar:libs\cucumber-jvm-deps-1.0.5.jar:libs\gherkin-2.12.2.jar:build/classes" />
+    <property name="jna.boot.library.name" value="jnidispatch-410" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="libs.jpa2-persistence.maven-pom" value="" />
+    <property name="annotation.processing.enabled.in.editor" value="false" />
+    <property name="libs.hibernate4-support.classpath" value="D:\NetBeans 8.1\java\modules\ext\hibernate4\antlr-2.7.7.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\dom4j-1.6.1.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar" />
+    <property name="ant.file.type.DeliverableThree" value="file" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="javac.deprecation" value="false" />
+    <property name="javadoc.use" value="true" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="javac.processorpath" value="libs\cglib-nodep-3.2.4.jar:libs\client-combined-3.0.0-beta4-nodeps.jar:libs\commons-codec-1.10.jar:libs\commons-exec-1.3.jar:libs\commons-logging-1.2.jar:libs\gson-2.3.1.jar:libs\guava-19.0.jar:libs\hamcrest-core-1.3.jar:libs\hamcrest-library-1.3.jar:libs\httpclient-4.5.2.jar:libs\httpcore-4.4.4.jar:libs\httpmime-4.5.2.jar:libs\jna-4.1.0.jar:libs\jna-platform-4.1.0.jar:libs\junit-4.12.jar:libs\netty-3.5.7.Final.jar:libs\phantomjsdriver-1.3.0.jar:libs\cucumber-core-1.2.5.jar:libs\cucumber-java-1.2.5.jar:libs\cucumber-junit-1.2.5.jar:libs\cucumber-jvm-deps-1.0.5.jar:libs\gherkin-2.12.2.jar" />
+    <property name="libs.hamcrest.maven-pom" value="" />
+    <property name="javac.compilerargs" value="" />
+    <property name="ant.file" value="C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\build.xml" />
+    <property name="libs.beans-binding.maven-pom" value="" />
+    <property name="libs.hibernate4-support.javadoc" value="D:\NetBeans 8.1\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="libs.beans-binding.src" value="" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.swing-layout.src" value="D:\NetBeans 8.1\platform\docs\swing-layout-1.0.4-src.zip" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="netbeans.user" value="C:\Users\JYee\AppData\Roaming\NetBeans\8.1" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\JYee\AppData\Local\Temp\" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
+    <property name="junit.available" value="true" />
+    <property name="file.reference.commons-logging-1.2.jar" value="libs\commons-logging-1.2.jar" />
+    <property name="ant.file.DeliverableThree-impl" value="C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\nbproject\build-impl.xml" />
+    <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin" />
+    <property name="have.sources" value="true" />
+    <property name="libs.hamcrest.javadoc" value="" />
+    <property name="debug.classpath" value="libs\cglib-nodep-3.2.4.jar:libs\client-combined-3.0.0-beta4-nodeps.jar:libs\commons-codec-1.10.jar:libs\commons-exec-1.3.jar:libs\commons-logging-1.2.jar:libs\gson-2.3.1.jar:libs\guava-19.0.jar:libs\hamcrest-core-1.3.jar:libs\hamcrest-library-1.3.jar:libs\httpclient-4.5.2.jar:libs\httpcore-4.4.4.jar:libs\httpmime-4.5.2.jar:libs\jna-4.1.0.jar:libs\jna-platform-4.1.0.jar:libs\junit-4.12.jar:libs\netty-3.5.7.Final.jar:libs\phantomjsdriver-1.3.0.jar:libs\cucumber-core-1.2.5.jar:libs\cucumber-java-1.2.5.jar:libs\cucumber-junit-1.2.5.jar:libs\cucumber-jvm-deps-1.0.5.jar:libs\gherkin-2.12.2.jar:build/classes" />
+    <property name="file.reference.cucumber-java-1.2.5.jar" value="libs\cucumber-java-1.2.5.jar" />
+    <property name="javac.external.vm" value="true" />
+    <property name="javadoc.private" value="false" />
+    <property name="test.src.dir" value="test" />
+    <property name="ap.processors.internal" value="" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="dist.jar" value="dist/DeliverableThree.jar" />
+    <property name="libs.spring-framework400.maven-pom" value="" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.project.name" value="DeliverableThree" />
+    <property name="netbeans.hash.code" value="unique=NB_EXTIDE_JAVA063818189-a818-4201-aa41-207bd032bf09_8d1b2ecc-94aa-441b-b5c2-5901f0413ea7" />
+    <property name="file.reference.cucumber-junit-1.2.5.jar" value="libs\cucumber-junit-1.2.5.jar" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\JYee\AppData\Roaming\NetBeans" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="libs.spring-framework400.javadoc" value="" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="user.home" value="C:\Users\JYee" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="debug-args-line" value="-Xdebug" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="jar.index" value="false" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.javac-api.classpath" value="D:\NetBeans 8.1\java\modules\ext\nb-javac-api.jar" />
+    <property name="java.version" value="1.8.0_101" />
+    <property name="run.jvmargs.ide" value="" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.MySQLDriver.javadoc" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="platform.java" value="C:\Program Files\Java\jdk1.8.0_101\jre/bin/java" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="annotation.processing.processor.options" value="" />
+    <property name="libs.testng.maven-pom" value="" />
+    <property name="ant.file.type.DeliverableThree-impl" value="file" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="work.dir" value="C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master" />
+    <property name="libs.jaxb.classpath" value="D:\NetBeans 8.1\ide\modules\ext\jaxb\jaxb-impl.jar;D:\NetBeans 8.1\ide\modules\ext\jaxb\jaxb-xjc.jar;D:\NetBeans 8.1\ide\modules\ext\jaxb\jaxb1-impl.jar;D:\NetBeans 8.1\ide\modules\ext\jaxb\activation.jar;D:\NetBeans 8.1\ide\modules\ext\jaxb\api\jaxb-api.jar;D:\NetBeans 8.1\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="do.depend" value="false" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="libs.swing-layout.classpath" value="D:\NetBeans 8.1\platform\modules\ext\swing-layout-1.0.4.jar" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="javac.source" value="1.8" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="nb.junit.batch" value="true" />
+    <property name="junit.forkmode" value="perTest" />
+    <property name="file.reference.hamcrest-core-1.3.jar" value="libs\hamcrest-core-1.3.jar" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes" />
+    <property name="file.reference.client-combined-3.0.0-beta4-nodeps.jar" value="libs\client-combined-3.0.0-beta4-nodeps.jar" />
+    <property name="javac.target" value="1.8" />
+    <property name="built-jar.properties" value="C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\build\built-jar.properties" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="src.dir" value="src" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="libs.jpa2-persistence.src" value="" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="libs.jpa20-persistence.src" value="" />
+    <property name="ignore.failing.tests" value="true" />
+    <property name="dist.dir" value="dist" />
+    <property name="testng.debug.mode" value="" />
+    <property name="javac.fork" value="true" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="default.javac.source" value="1.8" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="libs.MySQLDriver.src" value="" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="java.runtime.version" value="1.8.0_101-b13" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="default.javac.target" value="1.8" />
+    <property name="libs.junit_4.classpath" value="D:\NetBeans 8.1\platform\modules\ext\junit-4.12.jar" />
+    <property name="user.timezone" value="" />
+    <property name="nb.junit.single" value="false" />
+    <property name="do.jar" value="true" />
+    <property name="netbeans.dirs" value="D:\NetBeans 8.1\nb;D:\NetBeans 8.1\ergonomics;D:\NetBeans 8.1\ide;D:\NetBeans 8.1\extide;D:\NetBeans 8.1\java;D:\NetBeans 8.1\apisupport;D:\NetBeans 8.1\webcommon;D:\NetBeans 8.1\websvccommon;D:\NetBeans 8.1\enterprise;D:\NetBeans 8.1\mobility;D:\NetBeans 8.1\profiler;D:\NetBeans 8.1\python;D:\NetBeans 8.1\php;D:\NetBeans 8.1\identity;D:\NetBeans 8.1\harness;D:\NetBeans 8.1\cnd;D:\NetBeans 8.1\cndext;D:\NetBeans 8.1\dlight;D:\NetBeans 8.1\groovy;D:\NetBeans 8.1\extra;D:\NetBeans 8.1\javacard;D:\NetBeans 8.1\javafx" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="endorsed.classpath" value="" />
+    <property name="libs.absolutelayout.classpath" value="D:\NetBeans 8.1\java\modules\ext\AbsoluteLayout.jar" />
+    <property name="excludes" value="" />
+    <property name="libs.jpa2-persistence.javadoc" value="D:\NetBeans 8.1\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="java.class.path" value="C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\cglib-nodep-3.2.4.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\client-combined-3.0.0-beta4-nodeps.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\commons-codec-1.10.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\commons-exec-1.3.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\commons-logging-1.2.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\gson-2.3.1.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\guava-19.0.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\hamcrest-core-1.3.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\hamcrest-library-1.3.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\httpclient-4.5.2.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\httpcore-4.4.4.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\httpmime-4.5.2.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\jna-4.1.0.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\jna-platform-4.1.0.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\junit-4.12.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\netty-3.5.7.Final.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\phantomjsdriver-1.3.0.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\cucumber-core-1.2.5.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\cucumber-java-1.2.5.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\cucumber-junit-1.2.5.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\cucumber-jvm-deps-1.0.5.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\libs\gherkin-2.12.2.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\build\classes;D:\NetBeans 8.1\platform\modules\ext\junit-4.12.jar;D:\NetBeans 8.1\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\JYee\Desktop\DeliverableThree-master\DeliverableThree-master\build\test\classes;D:\NetBeans 8.1\extide\ant\lib\ant-launcher.jar;D:\NetBeans 8.1\extide\ant\lib\ant.jar;D:\NetBeans 8.1\extide\ant\lib\ant-junit.jar;D:\NetBeans 8.1\extide\ant\lib\ant-junit4.jar" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="libs.jpa20-persistence.classpath" value="D:\NetBeans 8.1\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar" />
+    <property name="os.version" value="6.1" />
+    <property name="application.args" value="" />
+    <property name="file.reference.httpclient-4.5.2.jar" value="libs\httpclient-4.5.2.jar" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="sun.desktop" value="windows" />
+    <property name="libs.hibernate4-persistence.src" value="" />
+    <property name="libs.hibernate4-support.maven-pom" value="" />
+    <property name="file.reference.cucumber-jvm-deps-1.0.5.jar" value="libs\cucumber-jvm-deps-1.0.5.jar" />
+    <property name="nb.internal.action.name" value="test.single" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="D:\NetBeans 8.1\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.eclipselink.classpath" value="D:\NetBeans 8.1\java\modules\ext\eclipselink\eclipselink.jar;D:\NetBeans 8.1\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar;D:\NetBeans 8.1\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
+    <property name="libs.beans-binding.javadoc" value="D:\NetBeans 8.1\java\docs\beansbinding-1.2.1-doc.zip" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="libs.CopyLibs.classpath" value="D:\NetBeans 8.1\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.spring-framework300.classpath" value="D:\NetBeans 8.1\ide\modules\org-apache-commons-logging.jar;D:\NetBeans 8.1\java\modules\ext\cglib-2.2.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-aop-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-aspects-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-beans-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-build-src-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-context-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-context-support-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-core-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-expression-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-framework-bom-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-instrument-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-jdbc-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-jms-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-orm-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-oxm-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-struts-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-test-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-tx-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-web-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-webmvc-3.2.7.RELEASE.jar;D:\NetBeans 8.1\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.7.RELEASE.jar" />
+    <property name="libs.hamcrest.src" value="" />
+    <property name="run.jvmargs" value="" />
+    <property name="libs.hibernate4-persistence.classpath" value="D:\NetBeans 8.1\java\modules\ext\hibernate4\antlr-2.7.7.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\dom4j-1.6.1.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="dist.archive.excludes" value="" />
+    <property name="file.reference.netty-3.5.7.Final.jar" value="libs\netty-3.5.7.Final.jar" />
+    <property name="libs.testng.javadoc" value="D:\NetBeans 8.1\platform\docs\testng-6.8.1-javadoc.zip" />
+    <property name="user.script" value="" />
+    <property name="libs.PostgreSQLDriver.classpath" value="D:\NetBeans 8.1\ide\modules\ext\postgresql-9.2-1002.jdbc4.jar" />
+    <property name="libs.hibernate4-persistencemodelgen.classpath" value="D:\NetBeans 8.1\java\modules\ext\hibernate4\hibernate-jpamodelgen-4.3.1.Final.jar" />
+    <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="file.encoding" value="GBK" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="jdkBug6558476" value="false" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="platform.active" value="default_platform" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+  </properties>
+  <testcase classname="Scenario: Add iPhone 5 to cart" name="Given I am on iPhone 5 page" time="0.001" />
+  <testcase classname="Scenario: Add iPhone 5 to cart" name="When I click &quot;Add To Cart&quot;" time="0.0" />
+  <testcase classname="Scenario: Add iPhone 5 to cart" name="Then a notify message should show as &quot;You just added &quot;iPhone 5&quot; to your cart.&quot;" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Add iPhone 5 to cart" time="10.59" />
+  <testcase classname="Scenario: Change product quantity" name="Given I have added an iPhone 5 to cart" time="0.001" />
+  <testcase classname="Scenario: Change product quantity" name="When I am on Checkout page and I update quantity to 2" time="0.0" />
+  <testcase classname="Scenario: Change product quantity" name="Then the total should be $24.00" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Change product quantity" time="17.14" />
+  <testcase classname="Scenario: Remove product" name="Given I have added an iPhone 5 to cart" time="0.0" />
+  <testcase classname="Scenario: Remove product" name="When I am on Checkout page and I remove the product" time="0.0" />
+  <testcase classname="Scenario: Remove product" name="Then a message as &quot;Oops, there is nothing in your cart.&quot; should show" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Remove product" time="17.034" />
+  <testcase classname="Scenario: Successful Login with Valid Credentials" name="Given I am on My Account page" time="0.0" />
+  <testcase classname="Scenario: Successful Login with Valid Credentials" name="When I enter correct Username and Password" time="0.0" />
+  <testcase classname="Scenario: Successful Login with Valid Credentials" name="Then the welcome message &quot;Howdy, jingyitest&quot; should show in top-right corner" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Successful Login with Valid Credentials" time="9.791" />
+  <testcase classname="Scenario: Successful Logout" name="Given I am on My Account page" time="0.001" />
+  <testcase classname="Scenario: Successful Logout" name="When I login the website with correct username and password, and click logout" time="0.0" />
+  <testcase classname="Scenario: Successful Logout" name="Then there should be a message show as &quot;You are now logged out.&quot;" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Successful Logout" time="15.797" />
+  <testcase classname="Scenario: Unsuccessful Login with Invalid Credentials" name="Given I am on My Account page" time="0.001" />
+  <testcase classname="Scenario: Unsuccessful Login with Invalid Credentials" name="When I enter correct Username but incorrect Password" time="0.0" />
+  <testcase classname="Scenario: Unsuccessful Login with Invalid Credentials" name="Then a message should show as &quot;ERROR: Invalid login credentials.&quot;" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Unsuccessful Login with Invalid Credentials" time="8.557" />
+  <testcase classname="Scenario: View Product Category Page" name="Given I am on Home page" time="0.0" />
+  <testcase classname="Scenario: View Product Category Page" name="When I navigate to Product Category page" time="0.0" />
+  <testcase classname="Scenario: View Product Category Page" name="Then the page title should be Product Category | ONLINE STORE" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: View Product Category Page" time="9.529" />
+  <testcase classname="Scenario: Back to Home Page" name="Given I am on account register page" time="0.001" />
+  <testcase classname="Scenario: Back to Home Page" name="When I click &quot;Back to ONLINE STORE&quot;" time="0.0" />
+  <testcase classname="Scenario: Back to Home Page" name="Then the title of page should be ONLINE STORE | Toolsqa Dummy Test site" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Back to Home Page" time="7.634" />
+  <testcase classname="Scenario: See more product information" name="Given I am on Product Categoty page" time="0.0" />
+  <testcase classname="Scenario: See more product information" name="When I want to see more info about iPhone 5 and click &quot;iPhone 5&quot;" time="0.0" />
+  <testcase classname="Scenario: See more product information" name="Then the page should has a title as iPhone 5 | ONLINE STORE" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: See more product information" time="16.744" />
+  <testcase classname="Scenario: Search a product" name="Given I am on Home page" time="0.0" />
+  <testcase classname="Scenario: Search a product" name="When I enter Magic Mouse in the search box" time="0.0" />
+  <testcase classname="Scenario: Search a product" name="Then a product named Magic Mouse should show" time="0.0" />
+  <testcase classname="junit.framework.TestSuite" name="Scenario: Search a product" time="9.609" />
+  <system-out><![CDATA[
+10 Scenarios ([32m10 passed[0m)
+30 Steps ([32m30 passed[0m)
+2m2.244s
+
+]]></system-out>
+  <system-err><![CDATA[十月 20, 2016 6:51:53 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1477003915027	Marionette	INFO	Listening on port 57968
+1477003916880	Marionette	INFO	startBrowser 89473466-2818-410a-b7c8-dd495ba7d675
+十月 20, 2016 6:51:57 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+[Child 15224] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+十月 20, 2016 6:52:02 下午 org.openqa.selenium.os.UnixProcess destroy
+严重: Unable to kill process with PID 9524
+十月 20, 2016 6:52:03 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1477003924166	Marionette	INFO	Listening on port 58024
+1477003925754	Marionette	INFO	startBrowser 23b1f242-6756-4031-95e4-eb6962797808
+十月 20, 2016 6:52:06 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+[Child 12040] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+十月 20, 2016 6:52:19 下午 org.openqa.selenium.os.UnixProcess destroy
+严重: Unable to kill process with PID 1172
+十月 20, 2016 6:52:20 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1477003941349	Marionette	INFO	Listening on port 58090
+1477003943060	Marionette	INFO	startBrowser 8ec25b64-9698-4790-a946-43ae5e3ba0be
+十月 20, 2016 6:52:23 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+[Child 4224] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+十月 20, 2016 6:52:36 下午 org.openqa.selenium.os.UnixProcess destroy
+严重: Unable to kill process with PID 12668
+十月 20, 2016 6:52:37 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1477003958400	Marionette	INFO	Listening on port 58153
+1477003960131	Marionette	INFO	startBrowser 84e55adb-413e-4c16-82c9-9ce991d28715
+十月 20, 2016 6:52:40 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+[Child 10544] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+十月 20, 2016 6:52:46 下午 org.openqa.selenium.os.UnixProcess destroy
+严重: Unable to kill process with PID 9904
+十月 20, 2016 6:52:47 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1477003968286	Marionette	INFO	Listening on port 58213
+1477003969991	Marionette	INFO	startBrowser 0b738e2b-3923-4810-8c02-5cb7c3144502
+十月 20, 2016 6:52:50 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+[Child 11260] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+十月 20, 2016 6:53:02 下午 org.openqa.selenium.os.UnixProcess destroy
+严重: Unable to kill process with PID 8948
+十月 20, 2016 6:53:03 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1477003984133	Marionette	INFO	Listening on port 58279
+1477003986028	Marionette	INFO	startBrowser 9d211852-f633-47f7-9191-b5cec8ea2014
+十月 20, 2016 6:53:06 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+[Child 9312] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+十月 20, 2016 6:53:11 下午 org.openqa.selenium.os.UnixProcess destroy
+严重: Unable to kill process with PID 12588
+十月 20, 2016 6:53:11 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1477003992620	Marionette	INFO	Listening on port 58334
+1477003994732	Marionette	INFO	startBrowser 6c285d6a-09fc-493f-af8a-8925e97f4a4a
+十月 20, 2016 6:53:14 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+[Child 10264] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+十月 20, 2016 6:53:20 下午 org.openqa.selenium.os.UnixProcess destroy
+严重: Unable to kill process with PID 11404
+十月 20, 2016 6:53:21 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1477004002065	Marionette	INFO	Listening on port 58383
+1477004003750	Marionette	INFO	startBrowser 9d29077b-aaf7-480e-8e95-c74cd72f1ac6
+十月 20, 2016 6:53:24 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+[Child 12020] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 12020] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+十月 20, 2016 6:53:28 下午 org.openqa.selenium.os.UnixProcess destroy
+严重: Unable to kill process with PID 8024
+十月 20, 2016 6:53:28 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1477004009712	Marionette	INFO	Listening on port 58415
+1477004011550	Marionette	INFO	startBrowser 2845dce2-4e22-41f0-ac5d-d5910abb4c5f
+十月 20, 2016 6:53:31 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+[Child 2852] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+十月 20, 2016 6:53:45 下午 org.openqa.selenium.os.UnixProcess destroy
+严重: Unable to kill process with PID 10704
+十月 20, 2016 6:53:45 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+1477004026515	Marionette	INFO	Listening on port 58469
+1477004028301	Marionette	INFO	startBrowser ea3571e3-b765-4b67-8d16-459f4e98ba30
+十月 20, 2016 6:53:48 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+信息: Detected dialect: W3C
+[Child 7512] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+十月 20, 2016 6:53:54 下午 org.openqa.selenium.os.UnixProcess destroy
+严重: Unable to kill process with PID 13920
+]]></system-err>
+</testsuite>
