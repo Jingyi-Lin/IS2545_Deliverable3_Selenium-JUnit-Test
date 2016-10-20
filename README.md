@@ -11,6 +11,8 @@ Finally I asked Professor to get some suggestions. Good news, a new way to write
 
 It is good for me that I could get rid of Thread.sleep() to make the code wait. However, in some scenarios, like change product quantity in checkout page, maybe because the javascript cannot load as fast as the findElement in wait until, so I have to use Thread.sleep() at these situations. 
 
+In StepDefinitions.java, there are two private methods besides annotated codes - logIn and buyPhone, to avoid duplicate codes for user log in and user buy iPhone 5.
+
 In summary, I have three user stories (features) in total - View Page, Manage Account, and Buy Product.
 In View Page feature, I write four senarios, including go and back through pages, view product information and search for a product.
 In Manage Account feature, there are three senarios, including successfully and unsuccessfully log in, and log out.
